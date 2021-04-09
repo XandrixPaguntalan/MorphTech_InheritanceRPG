@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3c3939"
+    tools:context=".jason">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="ENEMY"
+        android:textColor="#D67C31"
+        app:layout_constraintBottom_toBottomOf="@+id/textView39"
+        app:layout_constraintEnd_toEndOf="@+id/textView39"
+        app:layout_constraintStart_toStartOf="@+id/textView39" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="TANK"
+        android:textColor="#D67C31"
+        app:layout_constraintBottom_toBottomOf="@+id/textView38"
+        app:layout_constraintEnd_toEndOf="@+id/textView38"
+        app:layout_constraintStart_toStartOf="@+id/textView38" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="56dp"
+        android:text="MANA:"
+        android:textColor="#d67c31"
+        app:layout_constraintEnd_toEndOf="@+id/tankenemyhp"
+        app:layout_constraintTop_toTopOf="@+id/tankenemyhp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="56dp"
+        android:text="ARMOR:"
+        android:textColor="#d67c31"
+        app:layout_constraintEnd_toEndOf="@+id/tankenemyhp"
+        app:layout_constraintTop_toTopOf="@+id/tankenemyhp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="56dp"
+        android:text="DAMAGE:"
+        android:textColor="#d67c31"
+        app:layout_constraintEnd_toEndOf="@+id/tankenemyhp"
+        app:layout_constraintTop_toTopOf="@+id/tankenemyhp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="56dp"
+        android:text="MANA:"
+        android:textColor="#d67c31"
+        app:layout_constraintEnd_toEndOf="@+id/tankhp"
+        app:layout_constraintTop_toTopOf="@+id/tankhp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="56dp"
+        android:text="ARMOR:"
+        android:textColor="#d67c31"
+        app:layout_constraintEnd_toEndOf="@+id/tankhp"
+        app:layout_constraintTop_toTopOf="@+id/tankhp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="56dp"
+        android:text="DAMAGE:"
+        android:textColor="#d67c31"
+        app:layout_constraintEnd_toEndOf="@+id/tankhp"
+        app:layout_constraintTop_toTopOf="@+id/tankhp" />
+
+    <TextView
+        android:id="@+id/tankenemyhp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#d67c31"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.92"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.443" />
+
+    <TextView
+        android:id="@+id/tankhp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#d67c31"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.443" />
+
+    <TextView
+        android:id="@+id/tankmana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        android:textColor="#d67c31"
+        app:layout_constraintEnd_toEndOf="@+id/tankhp"
+        app:layout_constraintTop_toTopOf="@+id/tankhp" />
+
+    <TextView
+        android:id="@+id/tankarmor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="TextView"
+        android:textColor="#d67c31"
+        app:layout_constraintEnd_toEndOf="@+id/tankhp"
+        app:layout_constraintTop_toTopOf="@+id/tankhp" />
+
+    <TextView
+        android:id="@+id/tankdamage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="TextView"
+        android:textColor="#d67c31"
+        app:layout_constraintEnd_toEndOf="@+id/tankhp"
+        app:layout_constraintTop_toTopOf="@+id/tankhp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="56dp"
+        android:text="HP:"
+        android:textColor="#d67c31"
+        app:layout_constraintEnd_toEndOf="@+id/tankhp"
+        app:layout_constraintTop_toTopOf="@+id/tankhp" />
+
+    <TextView
+        android:id="@+id/tankenemyarmor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="TextView"
+        android:textColor="#d67c31"
+        app:layout_constraintEnd_toEndOf="@+id/tankenemyhp"
+        app:layout_constraintTop_toTopOf="@+id/tankenemyhp" />
+
+    <TextView
+        android:id="@+id/tankenemydamage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="TextView"
+        android:textColor="#d67c31"
+        app:layout_constraintEnd_toEndOf="@+id/tankenemyhp"
+        app:layout_constraintTop_toTopOf="@+id/tankenemyhp" />
+
+    <TextView
+        android:id="@+id/tankenemymana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        android:textColor="#d67c31"
+        app:layout_constraintEnd_toEndOf="@+id/tankenemyhp"
+        app:layout_constraintTop_toTopOf="@+id/tankenemyhp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="56dp"
+        android:text="HP:"
+        android:textColor="#d67c31"
+        app:layout_constraintEnd_toEndOf="@+id/tankenemyhp"
+        app:layout_constraintTop_toTopOf="@+id/tankenemyhp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="32dp"
+        android:text="Jason"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="@+id/tankhp"
+        app:layout_constraintEnd_toEndOf="@+id/tankhp" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="32dp"
+        android:text="Grump"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="@+id/tankenemyhp"
+        app:layout_constraintEnd_toEndOf="@+id/tankenemyhp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
